@@ -17,7 +17,7 @@ class PostImageController extends Controller
             'path'=>$path,
             'user_id'=>auth()->id(),
         ]);
-
+//
         return new PostImageResource($image);
 
 
